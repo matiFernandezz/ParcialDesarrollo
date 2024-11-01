@@ -102,36 +102,36 @@ El almacenamiento en base de datos permite evitar análisis redundantes al verif
 
 # Pruebas con JMeter
 #### 100 Peticiones
-![100Peticiones](./capturasParcial/100%20Peticiones.jpg)
+![100Peticiones](./src/capturasParcial/100%20Peticiones.jpg)
 #### 1000 Peticiones
-![1000Peticiones](./capturasParcial/1000%20Peticiones.jpg)
+![1000Peticiones](./src/capturasParcial/1000%20Peticiones.jpg)
 
 ---
 # Diagramas de Secuencia
 ### POST /mutant
-![MetodoPost](./capturasParcial/DiagramaSecuencia1.jpg)
+![MetodoPost](./src/capturasParcial/DiagramaSecuencia1.jpg)
 ### GET /stats
-![MetodoGet](./capturasParcial/DiagramaSecuencia2.jpg)
+![MetodoGet](./src/capturasParcial/DiagramaSecuencia2.jpg)
 
 ---
 # Diagrama de Arquitectura
-![Arquitectura](./capturasParcial/Arquitectura.jpg)
+![Arquitectura](./src/capturasParcial/Arquitectura.jpg)
 
 ---
 
 ## Capturas de Pantalla
 
 #### Post Mutant
-![Mutant](./capturasParcial/PostMutant.jpg)
+![Mutant](./src/capturasParcial/PostMutant.jpg)
 #### Base de Datos H2
-![BaseDeDatos](./capturasParcial/baseDeDatosH2.jpg)
+![BaseDeDatos](./src/capturasParcial/baseDeDatosH2.jpg)
 #### Post Human
-![Human](./capturasParcial/PostHuman.jpg)
+![Human](./src/capturasParcial/PostHuman.jpg)
 #### Ingreso caracter inválido
-![Invalido](./capturasParcial/CaracterInvalido.jpg)
+![Invalido](./src/capturasParcial/CaracterInvalido.jpg)
 #### Ingreso matriz no cuadrada
-![NoCuadrada](./capturasParcial/MatrizNoCuadrada.jpg)
+![NoCuadrada](./src/capturasParcial/MatrizNoCuadrada.jpg)
 #### Obtener Estadisticas
-![Stats](./capturasParcial/GetStats.jpg)
+![Stats](./src/capturasParcial/GetStats.jpg)
 
 
