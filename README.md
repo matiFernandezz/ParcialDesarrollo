@@ -31,13 +31,13 @@ Este proyecto utiliza las siguientes dependencias y tecnologías:
 - JUnit Platform Launcher: Para ejecutar pruebas unitarias con JUnit.
 - Spring Boot Starter Test: Herramientas y librerías necesarias para realizar pruebas unitarias en el proyecto.
 
-## ¿Como ejecutar?
+## Pasos de Ejecucion 
 
 1. Descargar el proyecto
-2. Descargar las dependencias necesarias para correr el proyecto
+2. Descargar las dependencias necesarias
 3. Ejecutar el proyecto
 4. Levantar la base de datos H2, navegando a: http://localhost:8080/h2-console/
-5. You can test the API locally or using render
+5. Se puede probar la API localmente o usando render: 
     *   Localmente, con la URL: http://localhost:8080/swagger-ui/index.html
     *   En render, con la URL:
 7. Probá la API con Postman o cualquier otro software de tu preferencia
