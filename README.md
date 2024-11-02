@@ -138,9 +138,9 @@ El almacenamiento en base de datos permite evitar análisis redundantes al verif
 
 ## Capturas de Pantalla con Render
 
-#### Post Mutant en la nube 
-![MutantRender](./src/capturasParcial/PostMutantRender.jpg)
 #### Post Human en la nube 
+![MutantRender](./src/capturasParcial/PostMutantRender.jpg)
+#### Post Mutan en la nube 
 ![MutantRender](./src/capturasParcial/PostHumanRender.jpg)
 #### Get Stats en la nube 
 ![StatsRender](./src/capturasParcial/GetStatsRender.jpg)
