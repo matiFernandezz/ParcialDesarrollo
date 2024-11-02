@@ -39,12 +39,12 @@ Este proyecto utiliza las siguientes dependencias y tecnologías:
 4. Levantar la base de datos H2, navegando a: http://localhost:8080/h2-console/
 5. Se puede probar la API localmente o usando render: 
     *   Localmente, con la URL: http://localhost:8080/swagger-ui/index.html
-    *   En render, con la URL:
+    *   En render, con la URL: https://parcialdesarrollo-1-ykvu.onrender.com
 7. Probá la API con Postman o cualquier otro software de tu preferencia
-    *   POST (guardar persona local) http://localhost:8080/persona/mutant
-    *   POST (guardar persona render)
-    *   GET (recuperar estadisticas) http://localhost:8080/persona/stats
-    *
+    *   POST Dna http://localhost:8080/mutant (En forma local)
+    *   POST Dna https://parcialdesarrollo-1-ykvu.onrender.com/mutant (En la nube)
+    *   GET Stats http://localhost:8080/stats (Obtener estadisticas en forma local)
+      * GET Stats https://parcialdesarrollo-1-ykvu.onrender.com/stats (Obtener estadisticas desde la nube)
 ## Explicación del algoritmo implementado
 
 ### Clase `DnaService`
@@ -121,11 +121,11 @@ El almacenamiento en base de datos permite evitar análisis redundantes al verif
 
 ## Capturas de Pantalla
 
-#### Post Mutant
+#### Post Mutant Localmente
 ![Mutant](./src/capturasParcial/PostMutant.jpg)
 #### Base de Datos H2
 ![BaseDeDatos](./src/capturasParcial/baseDeDatosH2.jpg)
-#### Post Human
+#### Post Human Localmente
 ![Human](./src/capturasParcial/PostHuman.jpg)
 #### Ingreso caracter inválido
 ![Invalido](./src/capturasParcial/CaracterInvalido.jpg)
@@ -133,5 +133,18 @@ El almacenamiento en base de datos permite evitar análisis redundantes al verif
 ![NoCuadrada](./src/capturasParcial/MatrizNoCuadrada.jpg)
 #### Obtener Estadisticas
 ![Stats](./src/capturasParcial/GetStats.jpg)
+
+--- 
+
+## Capturas de Pantalla con Render
+
+#### Post Mutant en la nube 
+![MutantRender](./src/capturasParcial/PostMutantRender.jpg)
+#### Post Human en la nube 
+![MutantRender](./src/capturasParcial/PostHumanRender.jpg)
+#### Get Stats en la nube 
+![StatsRender](./src/capturasParcial/GetStatsRender.jpg)
+#### Viendo las Stats desde el navegador 
+![StatsWeb](./src/capturasParcial/RenderStats.jpg)
 
 
