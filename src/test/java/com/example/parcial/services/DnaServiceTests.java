@@ -10,7 +10,7 @@ public class DnaServiceTests {
     public void testFilas() {
         String[] dna = {
                 "ATGCGA",
-                "CAGTGC",
+                "TTTTGC",
                 "TTATGT",
                 "AGAAGG",
                 "CCCCTA",
@@ -37,42 +37,65 @@ public class DnaServiceTests {
         String[] dna = {
                 "ATGCGA",
                 "CAGTAC",
-                "TTGTGT",
-                "AGATAG",
-                "CCCTTA",
+                "TCATGT",
+                "AGCAAG",
+                "CCTCTA",
                 "TCACTG"
         };
         assertTrue(DnaService.isMutant(dna));
     }
 
     @Test
-    public void testSubDiagonalesIzquierda() {
+    public void testMainDiagonalesIzquierda() {
         String[] dna = {
                 "ATGCGA",
-                "CAGTGC",
-                "TTATGT",
-                "AGAAGG",
-                "CCCCTA",
-                "TCACTG"
+                "CAGGAC",
+                "TTGAGT",
+                "AGAATG",
+                "CCCGTA",
+                "TCTCTG"
         };
         assertTrue(DnaService.isMutant(dna));
     }
 
     @Test
-    public void testSubDiagonalesDerecha() {
+    public void testFilasyColumnas() {
         String[] dna = {
                 "CTGCGA",
-                "AAGTGC",
-                "TTGTGT",
-                "GGATGG",
-                "CCCCTA",
+                "CAGTGC",
+                "CTGTCT",
+                "CGATGG",
+                "AAAATA",
                 "TCACTG"
         };
         assertTrue(DnaService.isMutant(dna));
     }
-
     @Test
-    public void testNoMutant() {
+    public void testFilasyDiagonales() {
+        String[] dna = {
+                "CTGCGA",
+                "CCGTGC",
+                "TTCTCT",
+                "GGACGG",
+                "AAAATA",
+                "TCACTG"
+        };
+        assertTrue(DnaService.isMutant(dna));
+    }
+    @Test
+    public void testColumnasYDiagonales() {
+        String[] dna = {
+                "CTGCGA",
+                "CATTGC",
+                "CTGTCT",
+                "CGATTG",
+                "AAAGTA",
+                "TCACTG"
+        };
+        assertTrue(DnaService.isMutant(dna));
+    }
+    @Test
+    public void testHuman() {
         String[] dna = {
                 "ATGCGA",
                 "CAGTGC",
@@ -83,5 +106,6 @@ public class DnaServiceTests {
         };
         assertFalse(DnaService.isMutant(dna));
     }
+
 
 }

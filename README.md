@@ -118,6 +118,11 @@ El almacenamiento en base de datos permite evitar análisis redundantes al verif
 ![Arquitectura](./src/capturasParcial/Arquitectura.jpg)
 
 ---
+## Prueba de Cobertura
+#### Test-Coverage realizadas con Jacoco
+![PruebaDeCobertura](./src/capturasParcial/PruebaCobertura.jpg)
+
+---
 
 ## Capturas de Pantalla
 
